@@ -17,6 +17,6 @@ Robin Scheduling.
   -    (b) Turn around time for process(n) = waiting time of process(n) + burst time of process(n)+ the
         time difference in getting CPU from process(n).
 - 7: Calculate
-       (a) Average waiting time = Total waiting Time / Number of process
-    (b) Average Turnaround time = Total Turnaround Time / Number of process Step 
+  -    (a) Average waiting time = Total waiting Time / Number of process
+  -    (b) Average Turnaround time = Total Turnaround Time / Number of process Step 
 - 8: Stop the proces.
