@@ -1,4 +1,4 @@
-# Aim - 
+# Aim : 
 To write a program for Priority Scheduling
 
 ## Algorithm :
