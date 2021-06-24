@@ -1,7 +1,7 @@
 public class VowConsString {
 
     public static void main(String[] args) {
-        String str = "Lalitha";
+        String str = "Aartthi";
         int vcount = 0, ccount = 0;
 
         //converting all the chars to lowercase
