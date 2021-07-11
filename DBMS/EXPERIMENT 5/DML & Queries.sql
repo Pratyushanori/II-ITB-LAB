@@ -16,11 +16,11 @@ CREATE TABLE Passanger(id INT , name VARCHAR(20) ,age INT , gender VARCHAR(10), 
 INSERT INTO Passanger VALUES(05 , 'Pratyusha' ,19,'F' , 'Hyderabad' , 'khammam' );
 INSERT INTO Passanger VALUES(10 , 'Bharani' ,55, 'F' , 'Hyderabad' , 'Bhadrachalam' );
 INSERT INTO Passanger VALUES(12 , 'Vaishnavi' ,30, 'F' , 'Hyderabad' , 'Warangal' );
-INSERT INTO Passanger VALUES(20 , 'Ravallika' ,36, 'F' , 'Hyderabad' , 'Guntur' );
+INSERT INTO Passanger VALUES(20 , 'Lalitha' ,36, 'F' , 'Hyderabad' , 'Guntur' );
 INSERT INTO Passanger VALUES(10 , 'Rakshith' ,46, 'M','Hyderabad' , 'Bhadrachalam' );
 INSERT INTO Passanger VALUES(20 , 'Akshay' ,35, 'M','Hyderabad' , 'Mahaboobnagar' );
 SELECT * FROM Passanger ;
-DELETE FROM Passanger P WHERE P.name = 'pooja';
+DELETE FROM Passanger P WHERE P.name = 'pratyusha';
 SELECT * FROM Passanger ;
 UPDATE Passanger P SET P.age = age - 5;
 SELECT * FROM Passanger ;
