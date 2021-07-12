@@ -13,10 +13,10 @@ UPDATE bus b SET b.bus_no=bus_no-1;
 SELECT * FROM bus ;
 
 CREATE TABLE Passanger(id INT , name VARCHAR(20) ,age INT , gender VARCHAR(10), source VARCHAR(30) , destination VARCHAR(30) );
-INSERT INTO Passanger VALUES(05 , 'Pratyusha' ,19,'F' , 'Hyderabad' , 'khammam' );
+INSERT INTO Passanger VALUES(05 , 'Pooja' ,19,'F' , 'Hyderabad' , 'khammam' );
 INSERT INTO Passanger VALUES(10 , 'Bharani' ,55, 'F' , 'Hyderabad' , 'Bhadrachalam' );
 INSERT INTO Passanger VALUES(12 , 'Vaishnavi' ,30, 'F' , 'Hyderabad' , 'Warangal' );
-INSERT INTO Passanger VALUES(20 , 'Ravallika' ,36, 'F' , 'Hyderabad' , 'Guntur' );
+INSERT INTO Passanger VALUES(20 , 'Lalitha' ,36, 'F' , 'Hyderabad' , 'Guntur' );
 INSERT INTO Passanger VALUES(10 , 'Rakshith' ,46, 'M','Hyderabad' , 'Bhadrachalam' );
 INSERT INTO Passanger VALUES(20 , 'Akshay' ,35, 'M','Hyderabad' , 'Mahaboobnagar' );
 SELECT * FROM Passanger ;
